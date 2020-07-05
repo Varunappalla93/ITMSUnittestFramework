@@ -1,0 +1,19 @@
+Started by user varun appalla
+Running as SYSTEM
+Building in workspace C:\Users\LENOVO\.jenkins\workspace\ITMS_Automation_Unittest
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/Varunappalla93/ITMSUnittestFramework.git # timeout=10
+Fetching upstream changes from https://github.com/Varunappalla93/ITMSUnittestFramework.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --force --progress -- https://github.com/Varunappalla93/ITMSUnittestFramework.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision f4f12d7e3ecee0ed521072db8f3f3b7c92e64d3d (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f f4f12d7e3ecee0ed521072db8f3f3b7c92e64d3d # timeout=10
+Commit message: "Create Pre-Requistes"
+ > git.exe rev-list --no-walk f4f12d7e3ecee0ed521072db8f3f3b7c92e64d3d # timeout=10
+[htmlpublisher] Archiving HTML reports...
+Finished: SUCCESS
