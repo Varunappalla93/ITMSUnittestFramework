@@ -1,0 +1,11 @@
+# ITMSUnittestFramework
+
+
+1) Use your system path of the project where it has been downloaded instead of my hardcoded path.
+sys.path.append("C:/Users/LENOVO/Desktop/Varun Personal/ITMS_app")
+
+2)Download the chrome driver.exe which I have included in the repository , and use the chromedriver.exe along with the downloaded project path instead of my hardcoded path.
+  driver=webdriver.Chrome("C:/Users/LENOVO/Desktop/Varun Personal/ITMS_app/chromedriver.exe")
+  
+  
+  
